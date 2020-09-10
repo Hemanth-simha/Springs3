@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DriverLicense status="suspend">
+	<Number>8055</Number>
+	<FirstName>Allen</FirstName>
+	<MiddleName>M</MiddleName>
+	<LastName>S</LastName>
+	<DateOfBirth>29-03-2015</DateOfBirth>
+	<VehicleType>Car</VehicleType>
+	<DateOfIssue>22-06-2030</DateOfIssue>
+	<!-- DD-MM-YYYY -->
+	<DateOfExpire>13-08-2045</DateOfExpire>
+	<Photo location="path"/>
+</DriverLicense>

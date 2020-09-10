@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:User xmlns:tns="http://www.amazon.com/UserAccount" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.amazon.com/UserAccount UserAccount.xsd ">
+  <tns:UserId>101</tns:UserId>
+  <tns:UserName>Kingggg</tns:UserName>
+  <tns:Email>king@gamil.com</tns:Email>
+  <tns:Password>abc123</tns:Password>
+  <tns:Gender>Female</tns:Gender>
+  <tns:Contact>7676866303</tns:Contact>
+</tns:User>

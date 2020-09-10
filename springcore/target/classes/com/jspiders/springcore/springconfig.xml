@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="employee" class="com.jspiders.springcore.Employee">
+
+		<property name="empno">
+			<value>
+				101
+			</value>
+		</property>
+
+		<property name="ename">
+			<value>
+				King
+			</value>
+		</property>
+
+		<property name="email">
+			<value>
+				King@jspiders.com
+			</value>
+		</property>
+
+		<property name="salary">
+			<value>
+				30333.33
+			</value>
+		</property>
+
+		<property name="contact">
+			<value>
+				8686366303
+			</value>
+		</property>
+
+	</bean>
+
+</beans>
