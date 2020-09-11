@@ -2,11 +2,11 @@ package com.jspiders.springcore;
 
 public class Employee {
 	
-	private int empno;
+	private Integer empno;
 	private String ename;
 	private String email;
-	private double salary;
-	private long contact;
+	private Double salary;
+	private Long contact;
 	
 	
 	public int getEmpno() {

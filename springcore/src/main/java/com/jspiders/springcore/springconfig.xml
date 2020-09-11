@@ -8,38 +8,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="employee" class="com.jspiders.springcore.Employee">
-
-		<property name="empno">
-			<value>
-				101
-			</value>
-		</property>
-
-		<property name="ename">
-			<value>
-				King
-			</value>
-		</property>
-
-		<property name="email">
-			<value>
-				King@jspiders.com
-			</value>
-		</property>
-
-		<property name="salary">
-			<value>
-				30333.33
-			</value>
-		</property>
-
-		<property name="contact">
-			<value>
-				8686366303
-			</value>
-		</property>
-
-	</bean>
+	<bean name="employee" class="com.jspiders.springcore.Employee"
+	p:empno="101" p:ename="King" p:email="king@jspiders" p:salary="30333.33" 
+	p:contact="8686966101"/>
 
 </beans>

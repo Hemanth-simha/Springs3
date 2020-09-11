@@ -8,8 +8,31 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="employee" class="com.jspiders.springcore.Employee"
-	p:empno="101" p:ename="King" p:email="king@jspiders" p:salary="30333.33" 
-	p:contact="8686966101"/>
+	<bean name="customer" class="com.jspiders.springcore.list.Customer">
+	
+	<property name="id" value="1011"/>
+	<property name="name" value="Scott"/>
+	
+	<property name="products">
+	<list>
+	<value>OnePlus Nord</value>
+	<value>Redmi Note 9 Pro</value>
+	<value>Apple</value>
+	<value>Samsung M21</value>
+	<value>Moto</value>
+	<value>Redmi Note 9 Pro</value>
+	</list>
+	</property>
+	
+	<property name="contacts">
+	<set>
+	<value>7676866303</value>
+	<value>9696866303</value>
+	<value>9696866303</value>
+	</set>
+	</property>
+	
+	
+	</bean>	
 
 </beans>
